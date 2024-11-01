@@ -1,0 +1,199 @@
+/* Fee.css */
+
+.about-registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 40vh;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+  padding-top: 100px; /* Adjust this value based on the height of your navbar */
+}
+
+.about-registration-header {
+  
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.about-registration-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.about-design-line {
+  width: 20%;
+  border: 1px solid #fff;
+  margin: 20px 0;
+}
+
+.about-registration-content {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.about-registration-content p {
+  font-size: 1.5rem;
+  margin: 0;
+  color: #fff;
+}
+
+.home-link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.centered-heading {
+  text-align: center;
+  margin: 20px 0;
+}
+
+.content-container {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.left-content {
+  flex: 1;
+  margin-right: 20px;
+  font-size: 1.2rem;
+}
+
+.right-image {
+  flex: 1;
+  max-height: 30rem; /* Ensure the image height is equal to the paragraph height */
+  width: 10%;
+  margin-left: 20px;
+  border: 10%; 
+}
+
+.important-info-heading {
+  text-align: center;
+  margin: 20px 0;
+  color:  #f0ad4e;
+}
+
+.important-info-list {
+  list-style-type: disc;
+  padding-left: 20px;
+  font-size: 1rem;
+}
+
+.important-info-list li {
+  margin-bottom: 10px;
+  margin-left: 20px;
+}
+
+.important-info-list li:before {
+  content: '•';
+  color: #000; /* Customize bullet color if needed */
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+/* Fee.css */
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 20px;
+}
+
+.card {
+  background-color: #f8f9fa;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  flex: 1 1 calc(20% - 20px);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card-header {
+  background-color: rgb(217, 187, 18);
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+.card-header-l{
+  background-color: rgb(83, 73, 20);
+  color: #fff;
+  padding: 10px;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  text-align: center;
+}
+
+.card-header h3 {
+  margin: 0;
+  font-size: 20px;
+}
+.card-header-l h3 {
+  margin: 0;
+  font-size: 20px;
+  color: white;
+}
+.card-header span {
+color: white;
+}
+.card-header span {
+  font-size: 14px;
+}
+
+.card-price {
+  text-align: center;
+  padding: 20px;
+}
+
+.card-price .currency {
+  font-size: 24px;
+}
+
+.card-price .amount {
+  font-size: 40px;
+  font-weight: bold;
+}
+
+.card-price .period {
+  font-size: 14px;
+}
+
+.card-features {
+  list-style-type: none;
+  padding: 20px;
+  margin: 0;
+}
+
+.card-features li {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.card-footer {
+  padding: 20px;
+  text-align: center;
+}
+
+.register-button {
+  background-color: #28a745;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}

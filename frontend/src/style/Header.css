@@ -1,0 +1,98 @@
+.carousel-inner {
+  height: 100vh; /* Full height for the carousel */
+}
+
+.carousel-item {
+  position: relative;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.3);/* Remove default background color */
+  background-size: 100%, 100%; /* Adjust icon size if needed */
+  border-radius: 50%; /* Optional: Rounded controls */
+  height: 40px; /* Adjust height if needed */
+  width: 40px; 
+  /* Adjust width if needed */
+}
+.carousel-item::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.2; 
+    z-index: -1; /* Ensure the background is behind other elements */
+}
+
+/* Slider 1 background */
+.slider1::before {
+  background-image: url('../images/image header.jpg'); /* Update this path if necessary */
+}
+
+/* Slider 2 background */
+.slider2::before {
+  background-image: url('../images/slider 2 iamaage.avif'); /* Update this path */
+}
+
+/* Slider 3 background */
+.slider3::before {
+  background-image: url('../images/3 slider.webp'); /* Update this path */
+}
+
+.carousel-caption {
+  position: absolute;
+  bottom: 190px;
+  left: 50%;
+  width: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  color: white;
+  z-index: 1; /* Ensure text is above the background */
+}
+
+.MainHeading {
+  color: #020202;
+  font-size: 56px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h3 {
+  color: #a91111;
+  margin-bottom: 10px;
+}
+
+h5 {
+  color: #030303;
+  margin-bottom: 20px;
+}
+
+.cta-button {
+  background-color: #ffc107;
+  border-color: #ffc107;
+  color: #343a40;
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s, border-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.cta-button:hover {
+  background-color: #e0a800;
+  border-color: #e0a800;
+  transform: scale(1.05);
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 50%;
+}

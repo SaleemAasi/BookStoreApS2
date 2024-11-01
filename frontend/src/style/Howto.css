@@ -1,0 +1,114 @@
+.how-to-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 40px;
+  background-image: url('../images/detail image.jpg'); /* Background image path */
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  position: relative; /* Position relative for absolute positioning of overlay */
+}
+
+.how-to-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+  z-index: 1; /* Make sure overlay is behind the content */
+}
+
+.flip-box {
+  width: 15rem;
+  height: 20rem;
+  perspective: 1000px;
+  color: white;
+  position: relative;
+  z-index: 2; /* Ensure flip-box is above the overlay */
+}
+
+.flip-box-inner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  transition: transform 0.6s;
+  transform-style: preserve-3d;
+}
+
+.flip-box:hover .flip-box-inner {
+  transform: rotateY(180deg);
+}
+
+.flip-box-front, .flip-box-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.8); /* Light background with transparency */
+  border: 3px solid #ffffff; /* White border */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+}
+
+.flip-box-back {
+  transform: rotateY(180deg);
+  background-color: rgba(0, 0, 0, 0.7); /* Darker background for back */
+}
+
+.flip-box i {
+  font-size: 3rem; /* Adjust icon size */
+  margin-bottom: 10px;
+  color: #000000; /* Black icon color */
+}
+
+.flip-box h2 {
+  margin-bottom: 10px;
+  color: #ffffff; /* White title color */
+  font-size: 1.5rem; /* Larger font size for emphasis */
+}
+
+.flip-box p {
+  color: #ffffff; /* White description color */
+  font-size: 0.9rem; /* Slightly smaller text for description */
+}
+
+.icon-circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background-color: #ffffff; /* Circle background color */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.register-button {
+  background-color: #3498db; /* Button background color */
+  color: white; /* Button text color */
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #2980b9; /* Darker background color on hover */
+  color: black;
+  transform: scale(1.05); /* Slightly enlarge button on hover */
+}

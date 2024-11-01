@@ -1,0 +1,92 @@
+/* NavbarStyle.css */
+
+/* Navbar background color, shadow, and transitions */
+.custom-navbar {
+  background: linear-gradient(45deg, #1c1c1c, #4a4a4a);
+  padding: 3px 15px; /* Reduced padding to decrease height */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: background 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.custom-navbar:hover {
+  background: linear-gradient(45deg, #4a4a4a, #1c1c1c);
+  box-shadow: 0 6px 12px rgba(224, 160, 160, 0.3);
+}
+
+/* Navbar logo animation */
+.navbar-logo {
+  height: 64px; /* Reduced height to decrease overall navbar height */
+  transition: transform 0.5s ease-in-out;
+}
+
+.navbar-logo:hover {
+  transform: rotate(360deg);
+}
+
+/* Navbar link styling and hover effect */
+.nav-link {
+  color: #fff;
+  font-size: 1.05rem; /* Slightly smaller font size */
+  padding: 8px 12px; /* Reduced padding to decrease link size */
+  position: relative;
+  transition: color 0.3s ease-in-out;
+}
+
+.nav-link::before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 50%;
+  background-color: #f1c40f;
+  transition: width 0.3s ease-in-out, left 0.3s ease-in-out;
+}
+
+.nav-link:hover::before {
+  width: 100%;
+  left: 0;
+}
+
+.nav-link:hover {
+  color: #f1c40f;
+}
+
+/* Active link */
+.nav-link.active {
+  color: #f1c40f; /* Set active link color */
+}
+
+/* Register button animation */
+.animated-button {
+  background: linear-gradient(45deg, #f39c12, #f1c40f);
+  border: none;
+  color: #fff;
+  transition: background 0.3s ease-in-out, transform 0.3s ease-in-out;
+}
+
+.animated-button:hover {
+  background: linear-gradient(45deg, #f1c40f, #f39c12);
+  transform: scale(1.1);
+}
+
+/* Smooth collapse animation */
+.navbar-collapse {
+  transition: max-height 0.3s ease-in-out;
+}
+
+@media (max-width: 991px) {
+  .navbar-collapse {
+    max-height: 0;
+    overflow: hidden;
+  }
+
+  .navbar-collapse.show {
+    max-height: 100vh;
+  }
+}
+
+/* Additional active link style */
+.navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+  color: rgb(255 188 38); /* Color for active link */
+}

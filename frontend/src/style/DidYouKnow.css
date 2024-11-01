@@ -1,0 +1,10 @@
+.accordion-container {
+  margin: 20px;
+}
+
+.accordion-heading {
+  font-size: 1.5rem; /* Adjust as needed */
+  margin-bottom: 20px;
+  color:  #ffc107; /* Adjust as needed */
+  text-align: center; /* Center align the heading */
+}

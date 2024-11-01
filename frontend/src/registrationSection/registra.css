@@ -1,0 +1,85 @@
+.registration-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 30vh; /* Adjust the height as needed */
+  background-image: url(../images/about\ header.webp); /* Light black background */
+  color: #fff; /* White text */
+  padding: 20px;
+}
+
+.registration-header {
+ /* Semi-transparent dark background for header */
+  padding: 10px 20px;
+  border-radius: 5px;
+}
+
+.registration-header h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.design-line {
+  width: 20%; /* Line width */
+  border: 1px solid #fff; /* White line */
+  margin: 20px 0; /* Space above and below the line */
+}
+
+.registration-content {
+  text-align: center;
+  width: 100%;
+  padding: 20px;
+}
+
+.registration-content p {
+  font-size: 1.5rem; /* Adjust font size */
+  margin: 0; /* Remove default margin */
+  color: #fff; /* White text color */
+}
+
+.registration-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 90%; /* 90% of the screen width */
+  max-width: 1000px; /* Maximum width for larger screens */
+  padding: 20px;
+  background-color: #fff; /* Light background color for form */
+  color: #333; /* Dark text color */
+  border: 2px solid #444; /* Border around the form */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Box shadow for depth */
+  margin: 40px auto; /* Center the form horizontally and add margin above and below */
+}
+
+.registration-form label {
+  margin: 10px 0 5px; /* Margin for spacing between labels and inputs */
+  width: 100%;
+  font-weight: bold; /* Bold labels for better readability */
+}
+
+.registration-form input,
+.registration-form select,
+.registration-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px; /* Margin below inputs for spacing */
+  border-radius: 5px;
+  border: 1px solid #ccc; /* Light border for inputs */
+}
+
+.registration-form button {
+  margin-top: 20px;
+  padding: 10px 40px;
+  background-color: #f0ad4e; /* Button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registration-form button:hover {
+  background-color: #ec971f; /* Hover color */
+}

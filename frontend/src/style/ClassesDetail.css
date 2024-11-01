@@ -1,0 +1,28 @@
+.classes-details-wrapper {
+  width: 100%; /* Full width */
+  background-color: #c0a248; /* Background color */
+  color: #ffffff; /* Default text color */
+  display: flex; /* Use Flexbox */
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 20px; /* Padding for some spacing */
+  box-sizing: border-box; /* Include padding in width calculation */
+  text-align: center; /* Center text inside the content div */
+}
+
+.content {
+  max-width: 800px; /* Limit the width of the content */
+  padding: 10px; /* Padding inside the content */
+  margin: 0 auto; /* Center the content horizontally */
+}
+
+.content h3 {
+  color: #08080a; /* Dark color for h3 elements */
+  margin: 0; /* Remove margin to eliminate extra spacing */
+  line-height: 1.2; /* Adjust line-height for better readability */
+}
+
+.content p {
+  margin: 20px 0; /* Margin for spacing between paragraphs */
+  color: #ffffff; /* Ensure p elements are white */
+}

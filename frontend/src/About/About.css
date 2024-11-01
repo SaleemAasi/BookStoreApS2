@@ -1,0 +1,123 @@
+.about-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  max-width: 100%;
+
+}
+
+.about-registration-container {
+  width: 100%;
+  background-image: url(../images/about\ header.webp);
+  height: 40vh;
+}
+
+.about-registration-header h1 {
+  font-size: 2rem;
+}
+
+.about-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+  text-align: left;
+  padding: 20px;
+}
+
+.about-text {
+  flex: 1;
+  margin-right: 20px;
+}
+
+.about-image {
+  flex: 1;
+  max-width: 400px;
+  border-radius: 10%;
+}
+
+.about-image img {
+  width: 100%;
+  height: auto;
+}
+
+.about-additional-info {
+  margin-top: 40px;
+  max-width: 800px;
+  text-align: center;
+}
+
+.about-course-button {
+  padding: 10px 20px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 20px;
+}
+
+.about-course-button:hover {
+  background-color: #0056b3;
+}
+
+.about-section-title {
+  margin: 50px 0px;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.about-courses-section {
+  margin: 40px;
+  text-align: center;
+
+}
+
+.courses-container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.course-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 13px;
+  width: 250px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.course-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+.course-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.read-more-link {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007BFF;
+  text-decoration: underline;
+}
+
+.register-button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.register-button:hover {
+  background-color: #218838;
+}

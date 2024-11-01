@@ -1,0 +1,26 @@
+.quran-info-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  text-align: center;
+}
+
+h2 {
+  margin-top: 40px; /* Space above each h2 */
+  margin-bottom: 20px; /* Space below each h2 */
+  color: #e0a800; /* Optional: Change the color to match your theme */
+}
+
+h3 {
+  margin-top: 20px; /* Space above each h3 */
+  margin-bottom: 10px; /* Space below each h3 */
+  color: #343a40; /* Optional: Change the color to match your theme */
+}
+
+p {
+  margin-top: 10px; /* Space above each p */
+  margin-bottom: 20px; /* Space below each p */
+  color: #343a40; /* Optional: Change the color to match your theme */
+  max-width: 800px; /* Optional: Limit the width for better readability */
+}
