@@ -1,19 +1,32 @@
-.registration-container {
+
+.registration-containerr {
+  background-image: url(../images/about\ header.webp); /* Add your background image URL */
+  background-size: cover;
+  background-position: center;
+  height: 40vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 30vh; /* Adjust the height as needed */
-  background-image: url(../images/about\ header.webp); /* Light black background */
-  color: #fff; /* White text */
-  padding: 20px;
+  flex-direction: column;
+  color: #fffdfd; /* Adjust color as needed */
 }
 
-.registration-header {
- /* Semi-transparent dark background for header */
-  padding: 10px 20px;
-  border-radius: 5px;
+.registration-headerr {
+  text-align: center;
+  color: #fffdfd;
+
 }
+
+.color-white {
+  color: white; /* Text color for the welcome message */
+}
+
+.design-line {
+  width: 80%;
+  margin: 10px auto;
+  border: 1px solid #ddd; /* Adjust color to match your theme */
+}
+
 
 .registration-header h1 {
   font-size: 3rem;

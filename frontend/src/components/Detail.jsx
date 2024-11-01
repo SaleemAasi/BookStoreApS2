@@ -31,7 +31,7 @@ function Detail() {
         ref={headingRef}
         className={`detail-heading ${isVisible ? 'slide-in' : ''}`}
       >
-        Welcome to Tasawwuf Quran Academy!
+        Welcome to Tassawuf Quran Academy!
       </h2>
       <div className="detail-container">
         <div className="detail-image">

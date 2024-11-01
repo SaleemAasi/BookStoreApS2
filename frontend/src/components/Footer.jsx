@@ -1,7 +1,7 @@
 import React from 'react';
 import '../style/Footer.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faTwitter, faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import {  faInstagram, faFacebook } from '@fortawesome/free-brands-svg-icons';
 import { Link, useLocation } from 'react-router-dom';
 
 const Footer = () => {
@@ -11,7 +11,7 @@ const Footer = () => {
     <footer className="footer">
       <div className="footer-content">
         <div className="footer-section about">
-          <h1 className="logo-text"><span>Tasawwuf</span> Academy</h1>
+          <h1 className="logo-text"><span>Tassawuf</span> Academy</h1>
           <p>
             We are dedicated to providing quality education about Quran and Tajweed.
           </p>
@@ -67,7 +67,7 @@ const Footer = () => {
       </div>
 
       <div className="footer-bottom">
-        &copy; {new Date().getFullYear()} Tasawuf Academy. All rights reserved.
+        &copy; {new Date().getFullYear()} Tassawuf Academy. All rights reserved.
       </div>
     </footer>
   );

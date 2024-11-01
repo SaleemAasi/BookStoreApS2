@@ -14,7 +14,7 @@ function Header() {
         {/* First Slide */}
         <div className="carousel-item active slider1">
           <div className="carousel-caption d-none d-md-block">
-            <h1 className="MainHeading">Tasawwuf Quran Academy</h1>
+            <h1 className="MainHeading">Tassawuf Quran Academy</h1>
             {/* Added Quran verse */}
             <h3>“Recite in the name of your Lord who created.” (Quran 96:1)</h3>
             <h5>“Illuminating Hearts and Minds: Embark on a Transformative Journey with the Quran.”</h5>

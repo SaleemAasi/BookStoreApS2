@@ -44,15 +44,14 @@ function Registration() {
 
   return (
     <>
-      <div className="registration-container">
-        <div className="registration-header">
-          <h1>Register</h1>
-        </div>
-        <hr className="design-line" />
-        <div className="registration-content">
-          <p>Home / Register</p>
-        </div>
-      </div>
+    <div className="registration-containerr">
+  <div className="registration-headerr">
+    <h1>Registration</h1> 
+    <p className='color-white'>Welcome! Let’s get you registered.</p>
+  </div>
+  <hr className="design-line" />
+</div>
+
 
       <form className="registration-form" onSubmit={handleSubmit}>
         <h2 className='mb-5'> Regestration form</h2>
@@ -129,11 +128,18 @@ function Registration() {
           value={formData.course}
           onChange={handleChange}
           required
-        >
+        > add the course here
           <option value="">Select a course...</option>
-          <option value="web-development">Web Development</option>
-          <option value="data-science">Data Science</option>
-          <option value="graphic-design">Graphic Design</option>
+          <option value="web-development">Basic Tajweed Course</option>
+          <option value="Advanced Tajweed Course">Advanced Tajweed Course</option>
+          <option value="Quran Memorization Course">Basic Islamic Studies</option>
+          <option value="web-development">Quranic Arabic Course</option>
+          <option value="data-science">Hifz Course</option>
+          <option value="graphic-design">Fiqh and Hadith Course</option>
+          <option value="graphic-design"> Seerah of Prophet Muhammad (PBUH)</option>
+          <option value="data-science">Naat</option>
+
+         
           {/* Add more courses as needed */}
         </select>
 

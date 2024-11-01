@@ -24,7 +24,7 @@ function Fee() {
       <h2 className="centered-heading">Online Quran Classes</h2>
       <div className="content-container">
         <p className="left-content">
-          Online Quran Academy offers a variety of online Quran classes and learning options to meet the needs of its students. We have also designed special weekend courses for those who are working. Have a look at the study options and select the one you like the most!
+        Tassawuf quran Academy offers a variety of online Quran classes and learning options to meet the needs of its students. We have also designed special weekend courses for those who are working. Have a look at the study options and select the one you like the most!
           <br /><br />
           At our Online Quran Institute, you will find an affordable Fee structure for the courses. If you cannot afford the courses, don’t worry! We also provide financial assistance to the deserving students.
           <br /><br />
@@ -47,7 +47,7 @@ function Fee() {
         <li>We are offering special discount for more than four students from the same family/household.</li>
         <li>Online Quran Academy is providing highly excellent academic facilities at very low and cheap Hadya/Fee.</li>
         <li>Multi Payment Options.</li>
-        <li>Quran-Edu is providing Free Quran Classes for those who can’t afford to pay for our premium classes. With our Free Quran Classes you can access our all futures that are available for premium members so, feel free to register yourself for Free Quran Classes.</li>
+        <li>Tassawuf quran academy is providing Free Quran Classes for those who can’t afford to pay for our premium classes. With our Free Quran Classes you can access our all futures that are available for premium members so, feel free to register yourself for Free Quran Classes.</li>
       </ul>
       <p className='ml-2'>If you have any further queries, please do not hesitate to <Link to="/contact">contact with us</Link>.</p>
       
@@ -341,7 +341,7 @@ function Fee() {
       <h2>Free Online Quran Classes</h2>
       <div className="content-wrapper">
         <p>
-          Quran-Edu is providing Free Quran Classes for those who cannot afford to pay for our premium classes.
+        Tassawuf quran academy is providing Free Quran Classes for those who cannot afford to pay for our premium classes.
           <br /><br />
           With our Free Online Quran Classes, you can access all features that are available for premium members. Feel free to register yourself for Online Quran Classes.
         </p>
